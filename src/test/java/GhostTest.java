@@ -32,7 +32,7 @@ public class GhostTest {
 
         Mockito.when(pacBoard.getPacman()).thenReturn(pacman);
 
-        cyanGhost = new PinkGhost(17, 12, pacBoard);
+        cyanGhost = new CyanGhost(17, 12, pacBoard);
 
         MoveType cyanGhostMoveType = cyanGhost.getMoveAI("CyanGhost");
 
@@ -44,7 +44,7 @@ public class GhostTest {
 
         assertNotNull(pintGhostMoveType);
 
-        redGhost = new PinkGhost(17, 12, pacBoard);
+        redGhost = new RedGhost(17, 12, pacBoard);
 
         MoveType redGhostMoveType = redGhost.getMoveAI("RedGhost");
 
