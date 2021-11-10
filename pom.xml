@@ -7,6 +7,7 @@
     <groupId>edu.purdue.ece461</groupId>
     <artifactId>PacMan</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+         
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
